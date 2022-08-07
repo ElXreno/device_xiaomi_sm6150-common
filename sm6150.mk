@@ -248,12 +248,12 @@ PRODUCT_COPY_FILES += \
 TARGET_COMMON_QTI_COMPONENTS += \
     bt \
     media-legacy \
+    overlay \
     perf \
     telephony
 
 # RIL
 PRODUCT_PACKAGES += \
-    CarrierConfigOverlay \
     libril \
     librilutils
 
